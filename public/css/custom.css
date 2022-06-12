@@ -1,0 +1,46 @@
+.bg-purple {
+  --bs-bg-opacity: 1;
+  background-color: rgba(135,
+    116,
+    232,
+      var(--bs-bg-opacity)) !important;
+}
+
+.border-purple {
+  border-color: #8774e8 !important;
+}
+
+.text-purple {
+  color: #8774e8 !important;
+}
+
+.bootstrap-tagsinput .tag {
+  margin-right: 2px;
+  color: white !important;
+  background-color: #0d6efd;
+  padding: 0.2rem;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+.print-container {
+  margin-top: 3rem !important;
+}
+
+@media print {
+  .no-print {
+    display: none;
+  }
+  .print-mt-2 {
+    margin-top: 20px;
+  }
+  .print-container {
+    margin-top: -1rem !important;
+  }
+}
